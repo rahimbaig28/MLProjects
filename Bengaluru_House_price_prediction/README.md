@@ -1,4 +1,4 @@
-#Install Required Packages
+## Install Required Packages
 
 Ensure you have Python installed on your system. Then, run the following command to install all dependencies specified in the requirements.txt file:
 
