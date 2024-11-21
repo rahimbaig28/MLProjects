@@ -16,7 +16,7 @@ jupter notebook
 
 Open the house_price_detection.ipynb file from the project directory.
 
-##Execute the cells in order to:
+## Execute the cells in order to:
 Preprocess the data.
 Train the model.
 Generate and save the required pickle files (e.g., model artifacts) in the artifacts folder.
