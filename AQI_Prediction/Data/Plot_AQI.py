@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def avg_data_2013():
     temp_i=0
     average=[]
-    for rows in pd.read_csv('air_quality_index/Data/AQI/aqi2013.csv',chunksize=24):
+    for rows in pd.read_csv('AQI_Prediction/Data/AQI/aqi2013.csv',chunksize=24):
         add_var=0
         avg=0.0
         data=[]
@@ -28,7 +28,7 @@ def avg_data_2013():
 def avg_data_2014():
     temp_i=0
     average=[]
-    for rows in pd.read_csv('air_quality_index/Data/AQI/aqi2014.csv',chunksize=24):
+    for rows in pd.read_csv('AQI_Prediction/Data/AQI/aqi2014.csv',chunksize=24):
         add_var=0
         avg=0.0
         data=[]
@@ -51,7 +51,7 @@ def avg_data_2014():
 def avg_data_2015():
     temp_i=0
     average=[]
-    for rows in pd.read_csv('air_quality_index/Data/AQI/aqi2015.csv',chunksize=24):
+    for rows in pd.read_csv('AQI_Prediction/Data/AQI/aqi2015.csv',chunksize=24):
         add_var=0
         avg=0.0
         data=[]
@@ -75,7 +75,7 @@ def avg_data_2015():
 def avg_data_2016():
     temp_i=0
     average=[]
-    for rows in pd.read_csv('air_quality_index/Data/AQI/aqi2016.csv',chunksize=24):
+    for rows in pd.read_csv('AQI_Prediction/Data/AQI/aqi2016.csv',chunksize=24):
         add_var=0
         avg=0.0
         data=[]
@@ -98,7 +98,7 @@ def avg_data_2016():
 def avg_data_2017():
     temp_i=0
     average=[]
-    for rows in pd.read_csv('air_quality_index/Data/AQI/aqi2017.csv',chunksize=24):
+    for rows in pd.read_csv('AQI_Prediction/Data/AQI/aqi2017.csv',chunksize=24):
         add_var=0
         avg=0.0
         data=[]
@@ -121,7 +121,7 @@ def avg_data_2017():
 def avg_data_2018():
     temp_i=0
     average=[]
-    for rows in pd.read_csv('air_quality_index/Data/AQI/aqi2018.csv',chunksize=24):
+    for rows in pd.read_csv('AQI_Prediction/Data/AQI/aqi2018.csv',chunksize=24):
         add_var=0
         avg=0.0
         data=[]

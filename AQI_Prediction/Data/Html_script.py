@@ -14,10 +14,10 @@ def retrieve_html():
             texts = requests.get(url)
             text_utf = texts.text.encode('utf=8')
 
-            if not os.path.exists("air_quality_index/Data/Html_Data/{}".format(year)):
-                os.makedirs("air_quality_index/Data/Html_Data/{}".format(year))
+            if not os.path.exists("AQI_Prediction/Data/Html_Data/{}".format(year)):
+                os.makedirs("AQI_Prediction/Data/Html_Data/{}".format(year))
             
-            with open("air_quality_index/Data/Html_Data/{}/{}.html".format(year, month), "wb") as output:
+            with open("AQI_Prediction/Data/Html_Data/{}/{}.html".format(year, month), "wb") as output:
                 output.write(text_utf)
 
             sys.stdout.flush()
