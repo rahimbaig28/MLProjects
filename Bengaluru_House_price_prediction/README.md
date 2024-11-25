@@ -1,3 +1,6 @@
+## What is this project about?
+This project focuses on analyzing Bengaluru housing data to predict property prices and understand key factors influencing them. The dataset was prepared through cleaning, feature engineering, and removing irrelevant columns and outliers. New features like the number of bedrooms (bhk) and price per square foot (price_per_sqft) were added to enhance predictive power. After thorough data exploration and visualization, a machine learning model was built to accurately predict housing prices, leveraging the refined dataset to deliver meaningful insights.
+
 ## Install Required Packages
 
 Ensure you have Python installed on your system. Then, run the following command to install all dependencies specified in the requirements.txt file:
