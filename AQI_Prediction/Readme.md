@@ -57,9 +57,7 @@ This project aims to predict the Air Quality Index (AQI) by analyzing historical
 
 ### 5. Best Model Selection  
 - Identified the best-performing model based on the evaluation metrics.  
-- Performed hyperparameter tuning to optimize model performance.  
-
----
+- Performed hyperparameter tuning to optimize model performance.
 
 ## Installation and Usage  
 
