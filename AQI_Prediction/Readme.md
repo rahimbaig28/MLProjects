@@ -71,8 +71,3 @@ This project aims to predict the Air Quality Index (AQI) by analyzing historical
   - `seaborn`  
   - `xgboost`  
   - `lightgbm`  
-
-### Steps to Run the Project  
-1. Clone this repository:  
-   ```bash  
-   git clone https://github.com/<username>/<repository-name>.git
