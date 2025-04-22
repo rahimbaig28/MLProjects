@@ -27,5 +27,5 @@ Welcome to the ML Projects Repository! This repository contains various machine 
 ## Installation & Usage  
 1. Clone this repository:  
    ```sh
-   git clone https://github.com/your-username/ml-projects.git
+   git clone https://github.com/rahimbaig28/MLProjects.git
 
