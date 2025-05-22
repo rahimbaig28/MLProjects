@@ -1,6 +1,6 @@
 ## Car Price Prediction
 
-This project is a machine learning application for predicting car prices. It includes a trained Random Forest regression model and a web-based front-end for real-time predictions.
+This project is a machine learning application for predicting car prices. It includes a trained Random Forest regression model and a web-based front-end for real-time Car Price predictions.
 
 ## Features
 
