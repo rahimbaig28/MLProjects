@@ -1,0 +1,161 @@
+{
+  "logreg": {
+    "cv_best_score_roc_auc": 0.9957688338493291,
+    "best_params": {
+      "clf__C": 1.0
+    },
+    "test_metrics": {
+      "roc_auc": 0.9953703703703703,
+      "avg_precision": 0.9970652078135953,
+      "classification_report": {
+        "0": {
+          "precision": 0.9111111111111111,
+          "recall": 0.9761904761904762,
+          "f1-score": 0.9425287356321839,
+          "support": 42.0
+        },
+        "1": {
+          "precision": 0.9855072463768116,
+          "recall": 0.9444444444444444,
+          "f1-score": 0.9645390070921985,
+          "support": 72.0
+        },
+        "accuracy": 0.956140350877193,
+        "macro avg": {
+          "precision": 0.9483091787439614,
+          "recall": 0.9603174603174602,
+          "f1-score": 0.9535338713621913,
+          "support": 114.0
+        },
+        "weighted avg": {
+          "precision": 0.9580981439105009,
+          "recall": 0.956140350877193,
+          "f1-score": 0.9564299597121931,
+          "support": 114.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          41,
+          1
+        ],
+        [
+          4,
+          68
+        ]
+      ],
+      "plots": {
+        "roc": "logreg_roc.png",
+        "pr": "logreg_pr.png",
+        "confusion_matrix": "logreg_confusion_matrix.png"
+      }
+    }
+  },
+  "rf": {
+    "cv_best_score_roc_auc": 0.9915376676986585,
+    "best_params": {
+      "clf__max_depth": 4,
+      "clf__min_samples_leaf": 1
+    },
+    "test_metrics": {
+      "roc_auc": 0.9923941798941799,
+      "avg_precision": 0.9955730596958206,
+      "classification_report": {
+        "0": {
+          "precision": 0.9512195121951219,
+          "recall": 0.9285714285714286,
+          "f1-score": 0.9397590361445783,
+          "support": 42.0
+        },
+        "1": {
+          "precision": 0.958904109589041,
+          "recall": 0.9722222222222222,
+          "f1-score": 0.9655172413793104,
+          "support": 72.0
+        },
+        "accuracy": 0.956140350877193,
+        "macro avg": {
+          "precision": 0.9550618108920814,
+          "recall": 0.9503968253968254,
+          "f1-score": 0.9526381387619444,
+          "support": 114.0
+        },
+        "weighted avg": {
+          "precision": 0.9560729421281235,
+          "recall": 0.956140350877193,
+          "f1-score": 0.9560273762928302,
+          "support": 114.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          39,
+          3
+        ],
+        [
+          2,
+          70
+        ]
+      ],
+      "plots": {
+        "roc": "rf_roc.png",
+        "pr": "rf_pr.png",
+        "confusion_matrix": "rf_confusion_matrix.png"
+      }
+    }
+  },
+  "gb": {
+    "cv_best_score_roc_auc": 0.9936016511867904,
+    "best_params": {
+      "clf__learning_rate": 0.1,
+      "clf__max_depth": 3,
+      "clf__n_estimators": 300
+    },
+    "test_metrics": {
+      "roc_auc": 0.9917328042328042,
+      "avg_precision": 0.9952154523510555,
+      "classification_report": {
+        "0": {
+          "precision": 0.9743589743589743,
+          "recall": 0.9047619047619048,
+          "f1-score": 0.9382716049382716,
+          "support": 42.0
+        },
+        "1": {
+          "precision": 0.9466666666666667,
+          "recall": 0.9861111111111112,
+          "f1-score": 0.9659863945578231,
+          "support": 72.0
+        },
+        "accuracy": 0.956140350877193,
+        "macro avg": {
+          "precision": 0.9605128205128205,
+          "recall": 0.9454365079365079,
+          "f1-score": 0.9521289997480473,
+          "support": 114.0
+        },
+        "weighted avg": {
+          "precision": 0.9568690958164642,
+          "recall": 0.956140350877193,
+          "f1-score": 0.9557756825927252,
+          "support": 114.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          38,
+          4
+        ],
+        [
+          1,
+          71
+        ]
+      ],
+      "plots": {
+        "roc": "gb_roc.png",
+        "pr": "gb_pr.png",
+        "confusion_matrix": "gb_confusion_matrix.png"
+      }
+    }
+  }
+}
